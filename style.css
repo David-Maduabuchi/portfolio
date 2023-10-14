@@ -564,6 +564,15 @@ a {
   .base {
     border: 2px solid;
   }
+  .btn-cont {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .widen-button {
+    width: auto;
+    padding: 0 10px;
+  }
 }
 
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
@@ -615,5 +624,14 @@ a {
   }
   .base {
     border: 2px solid;
+  }
+  .btn-cont {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .widen-button {
+    width: auto;
+    padding: 0 10px;
   }
 }
