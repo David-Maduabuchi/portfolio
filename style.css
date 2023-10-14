@@ -454,7 +454,9 @@ a {
     margin: 15px;
   }
   .btn-cont {
-    margin: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
