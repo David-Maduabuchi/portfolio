@@ -398,7 +398,7 @@ a {
     gap: 100px;
   }
   .about-box {
-    height: 180vh;
+    height: 150vh;
   }
   .center-about {
     width: 100%;
@@ -406,6 +406,9 @@ a {
   }
   .abt-txt-cont {
     width: 280px;
+  }
+  .abt-p {
+    font-size: 15px;
   }
   .proj-desc-cont {
     width: 100%;
@@ -435,6 +438,7 @@ a {
   }
   .contact-p {
     margin: 0 20px;
+    font-size: 20px;
   }
   .contact-outer {
     margin: 20px 10px;
@@ -449,14 +453,25 @@ a {
   }
   .proj-desc-p {
     margin: 0 15px;
+    font-size: 15px;
   }
   .proj-desc-h2 {
     margin: 15px;
+  }
+  .contact-txt {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
   }
   .btn-cont {
     margin: 10px;
     display: flex;
     flex-direction: column;
+  }
+  .widen-button {
+    width: auto;
+    padding: 0 10px;
   }
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
